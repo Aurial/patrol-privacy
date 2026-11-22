@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Patrol Group privacy notice</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><style>body{font:17px/1.55 -apple-system,system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#1c1c1e}
+  h1{font-size:1.6rem}h2{font-size:1.2rem;margin-top:2rem}
+  @media(prefers-color-scheme:dark){body{background:#111;color:#eee}a{color:#6cf}}
+  </style>
+</head>
+<body>
+<h1 id="patrol-what-happens-to-your-information">Patrol: what happens to your information</h1>
+<h2 id="what-the-app-sends">What the app sends</h2>
+<p>While you are in a team, the app sends your <strong>display name</strong>, your optional <strong>call sign</strong> and your <strong>location</strong> (position, speed, direction and accuracy) to the Patrol server, about every 15 seconds, or every second during a pursuit. If you press the pursuit button, your teammates are told you are in a pursuit. You can <strong>pause sharing</strong> at any time (see below).</p>
+<h2 id="who-can-see-it">Who can see it</h2>
+<p>Only the other members of your team, who joined with the same invite code. There is no chat, no profile and no public map. Nobody outside your team can see where you are.</p>
+<p>The person who created the team is its <strong>admin</strong> (they can make other members admins). Admins can see the same things as any member, and can also approve or refuse people who ask to join, remove members, rename or close the team and change the invite code. They cannot see anything about you that your teammates cannot.</p>
+<h2 id="what-the-server-keeps-and-for-how-long">What the server keeps, and for how long</h2>
+<p>Kept in the server’s <strong>memory only</strong>, never written to disk, and lost whenever the server restarts: - Your <strong>latest position</strong>, replaced by each new one. No history of where you have been is kept. - During a pursuit only, a <strong>trail of up to 300 recent points</strong>, so teammates can see where you are heading. It is deleted when the pursuit ends. - If you allow notifications, your phone’s <strong>push token</strong> (an address Apple gives your phone so it can be sent notifications). - Requests to join a team that needs approval, until an admin answers or 24 hours pass.</p>
+<p>Saved on the server’s disk, so a team survives the server being restarted or updated: - The team’s name, invite code and whether joining needs approval. - For each member: your display name, call sign, whether you are an admin, when you joined, your pause setting, and a <strong>scrambled (hashed) form of your sign-in token</strong>. Never your location.</p>
+<p>All of this is deleted when you tap <strong>Leave team</strong>, when an admin removes you or closes the team, and after <strong>7 days</strong> in which nobody in the team has opened the app. (Each member is removed after 7 days without opening it; a team with no members left is deleted.)</p>
+<h2 id="pausing-sharing">Pausing sharing</h2>
+<p>In Settings (or the menu) you can pause sharing for an hour or until you turn it back on. While paused your location is not sent, the server forgets the last position it had, and your teammates see that you are not sharing. You also stop receiving teammates’ locations, except people who are in a pursuit. Starting a pursuit turns sharing back on.</p>
+<h2 id="what-is-logged">What is logged</h2>
+<p>The server’s web traffic logs record your IP address, the time, the type of request, the address requested (which can include a team member’s internal ID), the result, and your phone’s app and iOS version. They do not record your location, name, call sign, invite code or sign-in token. These logs are kept for 30 days and used only to keep the service secure. A separate security tool that blocks abusive addresses keeps the addresses it has blocked for 7 days.</p>
+<h2 id="other-places-your-information-goes">Other places your information goes</h2>
+<ul>
+<li><strong>Apple Maps:</strong> when you navigate to a teammate or a place, your position and the destination are sent to Apple to calculate the route, under Apple’s own privacy terms.</li>
+<li><strong>Apple push notifications:</strong> if you allow notifications, when a teammate starts a pursuit the server asks Apple to send a notification to your phone, even if the app is closed. It only says that a team member has started a pursuit: no names and no locations. Team admins also get a notification when someone asks to join, which says only that someone has asked: no name. Apple delivers it under its own privacy terms. You can turn notifications off for Patrol in iOS Settings.</li>
+<li><strong>Hosting:</strong> the server runs on a rented server in Finland (EU).</li>
+</ul>
+<h2 id="on-your-phone">On your phone</h2>
+<p>The app keeps a small diagnostic log of connection, location-accuracy and battery events to help fix problems. It contains no names and no coordinates. It stays on your phone unless you choose to share it from Settings.</p>
+<h2 id="your-choices">Your choices</h2>
+<p>The first time you open the app, before anything is shared, you are asked to agree to this notice, and asked again if it changes in a way that matters. Without your agreement the app does not read or send your location. You can withdraw at any time by leaving the team.</p>
+<p>You can leave at any time with <strong>Leave team</strong>, which removes your information from the server immediately. You can pause sharing, or turn off Location for Patrol in iOS Settings. You can change your name and call sign in Settings. To ask a question or request anything else, contact Ian at ianirvine7@gmail.com.</p>
+</body>
+</html>
